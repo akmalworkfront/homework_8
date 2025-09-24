@@ -25,7 +25,7 @@ console.log(`Максимального значения в массиве 'arr1
 console.log(`Максимального значения в массиве 'arr2': ${maxCount(arr2) }`)
 console.log(`Максимального значения в массиве 'arr3': ${maxCount(arr3) }`)
 console.log(`Максимального значения в массиве 'arr4': ${maxCount(arr4) }`)
-console.log("\n=== Так же в массивах обнаружены нечисловые значения ===")
+console.log("\n=== Также в массивах были обнаружены нечисловые значения ===")
 let productListText = ""
 for (let i = 0; i < NotaNumberList.length; i++) {
   const element = NotaNumberList[i];
