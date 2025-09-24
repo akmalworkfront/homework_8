@@ -21,10 +21,10 @@ function maxCount(param) {
   return maxCountNum;
 }
 console.log("\n=== Итоговые результаты ===")
-console.log(`Максимального значения в массиве 'arr1': ${maxCount(arr1) }`)
-console.log(`Максимального значения в массиве 'arr2': ${maxCount(arr2) }`)
-console.log(`Максимального значения в массиве 'arr3': ${maxCount(arr3) }`)
-console.log(`Максимального значения в массиве 'arr4': ${maxCount(arr4) }`)
+console.log(`Максимальное значение в массиве 'arr1': ${maxCount(arr1) }`)
+console.log(`Максимальное значение в массиве 'arr2': ${maxCount(arr2) }`)
+console.log(`Максимальное значение в массиве 'arr3': ${maxCount(arr3) }`)
+console.log(`Максимальное значение в массиве 'arr4': ${maxCount(arr4) }`)
 console.log("\n=== Также в массивах были обнаружены нечисловые значения ===")
 let productListText = ""
 for (let i = 0; i < NotaNumberList.length; i++) {
